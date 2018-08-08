@@ -13,7 +13,7 @@ $tweaks = @(
 	### Privacy Tweaks ###
 	"DisableTelemetry",             # "EnableTelemetry",
 	"DisableWiFiSense",             # "EnableWiFiSense",
-	# "DisableSmartScreen",         # "EnableSmartScreen",
+	"DisableSmartScreen",         # "EnableSmartScreen",
 	"DisableWebSearch",             # "EnableWebSearch",
 	"DisableAppSuggestions",        # "EnableAppSuggestions",
 	"DisableActivityHistory",       # "EnableActivityHistory",
@@ -81,7 +81,7 @@ $tweaks = @(
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	# "EnableFileDeleteConfirm",    # "DisableFileDeleteConfirm",
+	"EnableFileDeleteConfirm",    # "DisableFileDeleteConfirm",
 	"HideTaskbarSearch",            # "ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
 	"HideTaskView",                 # "ShowTaskView",
 	"ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
@@ -93,12 +93,12 @@ $tweaks = @(
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	"SetVisualFXPerformance",       # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
-	# "EnableNumlock",              # "DisableNumlock",
+	"EnableNumlock",              # "DisableNumlock",
 
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
 	"ShowHiddenFiles",              # "HideHiddenFiles",
-	# "HideSelectCheckboxes",       # "ShowSelectCheckboxes",
+	"HideSelectCheckboxes",       	# "ShowSelectCheckboxes",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	"HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
@@ -132,7 +132,7 @@ $tweaks = @(
 	"DisableAdobeFlash",            # "EnableAdobeFlash",
 	"DisableEdgeShortcutCreation",  # "EnableEdgeShortcutCreation",
 	# "UninstallMediaPlayer",       # "InstallMediaPlayer",
-	# "UninstallInternetExplorer",  # "InstallInternetExplorer",
+	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	# "UninstallWorkFolders",       # "InstallWorkFolders",
 	# "InstallLinuxSubsystem",      # "UninstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
@@ -141,7 +141,7 @@ $tweaks = @(
 	# "UninstallPDFPrinter",        # "InstallPDFPrinter",
 	"UninstallXPSPrinter",          # "InstallXPSPrinter",
 	"RemoveFaxPrinter",             # "AddFaxPrinter",
-	# "UninstallFaxAndScan",        # "InstallFaxAndScan",
+	"UninstallFaxAndScan",        # "InstallFaxAndScan",
 
 	### Server Specific Tweaks ###
 	# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
@@ -152,8 +152,8 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	# "UnpinStartMenuTiles",
-	# "UnpinTaskbarIcons",
+	"UnpinStartMenuTiles",
+	"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
 	"WaitForKey",
